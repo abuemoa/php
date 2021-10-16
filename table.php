@@ -34,8 +34,8 @@
     }
         print("</tr>\n");
         for ($i = 1 ; $i <= 10; $i++) {
-            print("\n");
-            print("<tr>\n");
+            print("\n"); //donebyABM
+            print("<tr>\n");  //20211116
             print("<td id=numero>$i</td>\n");
             for ($j = $start; $j <= 60; $j++) {
                 if ( $j%$i == 0 ) {
@@ -46,7 +46,7 @@
             }
             }
             print("</tr>");
-       
+                //donebyABM
         }
     ?>   
 </table>  
